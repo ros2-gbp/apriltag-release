@@ -234,7 +234,8 @@ tracks:
     ros_distro: lyrical
     vcs_type: git
     vcs_uri: https://github.com/AprilRobotics/apriltag.git
-    version: :{auto}
+    version: 3.4.5
+    version_saved: :{auto}
   master:
     actions:
     - bloom-export-upstream :{vcs_local_uri} :{vcs_type} --tag :{release_tag} --display-uri
